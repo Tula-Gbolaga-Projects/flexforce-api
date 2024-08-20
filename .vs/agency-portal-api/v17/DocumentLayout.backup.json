@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ogunt\\desktop\\personal-projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:agency-portal-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "agency-portal-api",
+              "DocumentMoniker": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
+              "RelativeDocumentMoniker": "agency-portal-api.csproj",
+              "ToolTip": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
+              "RelativeToolTip": "agency-portal-api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-20T02:34:35.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

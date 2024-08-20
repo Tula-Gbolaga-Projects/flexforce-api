@@ -1,0 +1,6 @@
+@agency_portal_api_HostAddress = http://localhost:5105
+
+GET {{agency_portal_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

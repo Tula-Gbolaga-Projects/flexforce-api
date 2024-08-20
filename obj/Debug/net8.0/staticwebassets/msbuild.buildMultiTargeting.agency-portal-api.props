@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\agency-portal-api.props" />
+</Project>
