@@ -64,6 +64,7 @@ namespace agency_portal_api.Services
 
             var user = mapper.Map<User>(model);
             user.UserName = user.UserName ?? user.Email;
+            user.RoleName = user.RoleName ?? "Admin";
 
             var createResult = await Create(user, model.Password, token);
 

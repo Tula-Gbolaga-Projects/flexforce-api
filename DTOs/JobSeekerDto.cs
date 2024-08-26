@@ -10,6 +10,7 @@
         public string Brp { get; set; }
         public string NationalInsurance { get; set; }
         public string ShareCode { get; set; }
+        public string RoleName { get; set; }
     }
 
     public class GetJobSeekerDto

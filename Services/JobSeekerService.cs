@@ -61,6 +61,7 @@ namespace agency_portal_api.Services
             }
 
             var jobSeeker = await ListAll()
+                .Include(c => c.User)
                 .FirstOrDefaultAsync(c => c.Id == jobSeekerId);
 
             if (jobSeeker == null)
@@ -68,10 +69,13 @@ namespace agency_portal_api.Services
                 return new ServiceError<GetJobSeekerDto>().FindError();
             }
 
+            var mapped = mapper.Map<GetJobSeekerDto>(jobSeeker);
+            mapped.User = mapper.Map<GetUserDto>(jobSeeker.User);
+
             return new CustomResponse<GetJobSeekerDto>()
             {
                 Response = ServiceResponses.Success,
-                Data = mapper.Map<GetJobSeekerDto>(jobSeeker)
+                Data = mapped
             };
         }
 
