@@ -21,12 +21,14 @@ namespace agency_portal_api.Services
         private readonly IRepository repository;
         private IMapper mapper;
         private readonly IUserService userService;
+        private readonly IMailJetService mailJetService;
 
-        public JobSeekerService(IRepository repository, IMapper mapper, IUserService userService)
+        public JobSeekerService(IRepository repository, IMapper mapper, IUserService userService, IMailJetService mailJetService)
         {
             this.repository = repository;
             this.mapper = mapper;
             this.userService = userService;
+            this.mailJetService = mailJetService;
         }
 
         public async Task<CustomResponse<GetJobSeekerDto>> Create(CreateJobSeekerDto model, CancellationToken token)
@@ -47,6 +49,8 @@ namespace agency_portal_api.Services
             var result = await repository.AddAsync(jobSeeker, token);
             if (result)
             {
+                await mailJetService.SendMail(userResponse.Data.Email, "You have successfully created your account", "Account Creation Successful", token, false);
+
                 return await GetById(jobSeeker.Id, token);
             }
 

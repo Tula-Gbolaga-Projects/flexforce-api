@@ -149,3 +149,5 @@ C:\Users\Ilife\source\repos\flexforce-api\obj\Debug\net8.0\scopedcss\bundle\agen
 C:\Users\Ilife\source\repos\flexforce-api\obj\Debug\net8.0\agency-p.1CF072A9.Up2Date
 C:\Users\Ilife\source\repos\flexforce-api\obj\Debug\net8.0\agency-portal-api.genruntimeconfig.cache
 C:\Users\Ilife\source\repos\flexforce-api\obj\Debug\net8.0\ref\agency-portal-api.dll
+C:\Users\Ilife\source\repos\flexforce-api\bin\Debug\net8.0\Mailjet.Client.dll
+C:\Users\Ilife\source\repos\flexforce-api\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj": {}
+    "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj": {
+    "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
+        "projectUniqueName": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
         "projectName": "agency-portal-api",
-        "projectPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
-        "packagesPath": "C:\\Users\\Ilife\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\obj\\",
+        "projectPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
+        "packagesPath": "C:\\Users\\ogunt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ilife\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ogunt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +53,10 @@
             "Konscious.Security.Cryptography.Argon2": {
               "target": "Package",
               "version": "[1.3.1, )"
+            },
+            "Mailjet.Api": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -107,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
