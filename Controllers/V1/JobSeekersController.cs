@@ -27,6 +27,7 @@ namespace agency_portal_api.Controllers.V1
 
         // POST api/JobSeeker
         [HttpPost("create")]
+        [AllowAnonymous]
         [ProducesResponseType(typeof(GlobalResponse<GetJobSeekerDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CreateJobSeeker(CreateJobSeekerDto model, CancellationToken token)

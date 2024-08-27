@@ -7,6 +7,7 @@ namespace agency_portal_api.Configurations
     public static class ScopedServices
     {
         public static IServiceCollection AddScopedServices(this IServiceCollection services) => services
+            .AddScoped<IMailJetService, MailJetService>()
             .AddScoped<IAuthenticationService, AuthenticationService>()
             .AddScoped<IAgencyStaffService, AgencyStaffService>()
             .AddScoped<IAgencyService, AgencyService>()
