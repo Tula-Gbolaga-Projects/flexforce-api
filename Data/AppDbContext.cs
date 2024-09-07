@@ -16,6 +16,7 @@ namespace agency_portal_api.Data
         public DbSet<JobDetail> JobDetails { get; set; }
         public DbSet<JobSeeker> JobSeekers { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ConnectedAgency> ConnectedAgencies { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)

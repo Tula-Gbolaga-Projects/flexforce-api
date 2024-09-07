@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using agency_portal_api.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace agency_portal_api.DTOs
 {
@@ -15,6 +16,8 @@ namespace agency_portal_api.DTOs
         public string Description { get; set; }
         public string Role { get; set; }
         public string DressCode { get; set; }
+        public string Location { get; set; }
+        public JobPublicityEnum Publicity { get; set; }
     }
 
     public class GetJobDetailDto
@@ -28,6 +31,8 @@ namespace agency_portal_api.DTOs
         public string Industry { get; set; }
         public string Description { get; set; }
         public string Role { get; set; }
+        public string Location { get; set; }
+        public string Publicity { get; set; }
         public string DressCode { get; set; }
         public bool IsActive { get; set; }
         public DateTime DateCreated { get; set; }

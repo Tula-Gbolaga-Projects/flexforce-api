@@ -15,6 +15,8 @@ namespace agency_portal_api.Configurations
             .AddScoped<IJobDetailService, JobDetailService>()
             .AddScoped<IUserService, UserService>()
             .AddScoped<IDbTransactionService, DbTransactionService>()
-            .AddScoped<IRepository, Repository>();
+            .AddScoped<IRepository, Repository>()
+            .AddScoped<IConnectedAgencyService, ConnectedAgencyService>()
+            .AddScoped<IAppliedJobService, AppliedJobService>();
     }
 }

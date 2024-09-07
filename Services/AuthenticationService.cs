@@ -15,6 +15,7 @@ using System.Security.Cryptography;
 using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Http.Extensions;
 using System.Web;
+using agency_portal_api.DTOs.Consts;
 
 namespace agency_portal_api.Services
 {
@@ -49,6 +50,20 @@ namespace agency_portal_api.Services
             {
                 return new CustomResponse<AuthResponse>(ServiceResponses.NotFound, null, "User account not found");
             }
+
+            if(existingUser.RoleName == Roles.AgencyStaff)
+            {
+                var existingStaffAgency = await repository.ListAll<AgencyStaff>().Include(c => c.Agency).FirstOrDefaultAsync(c => c.UserId == existingUser.Id);
+                if(existingStaffAgency is null)
+                {
+                    return new CustomResponse<AuthResponse>(ServiceResponses.NotFound, null, "Agency staff not found");
+                }
+
+                if(existingStaffAgency.Agency.Status == AgencyStatusEnum.Pending)
+                {
+                    return new CustomResponse<AuthResponse>(ServiceResponses.Failed, null, "Your agency has not been activated");
+                }
+            }
             
             var passwordCheck = await userService.CheckPassword(existingUser, request.Password);
             if (passwordCheck.Response == ServiceResponses.Success)
@@ -72,7 +87,6 @@ namespace agency_portal_api.Services
                 new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
                 new Claim(ClaimTypes.Role, user.RoleName)
             };
-
 
             var token = CreateToken(claims);
 

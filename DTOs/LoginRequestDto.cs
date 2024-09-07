@@ -9,7 +9,6 @@ namespace agency_portal_api.DTOs
         public string UserName { get; set; }
         [Required]
         public string Password { get; set; }
-        public UserTypeEnum UserType { get; set; }
     }
 
     public enum UserTypeEnum

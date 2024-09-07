@@ -8,5 +8,12 @@
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         public string Logo { get; set; }
+        public AgencyStatusEnum Status { get; set; }
+        public DateTime? DateApproved { get; set; }
+    }
+
+    public enum AgencyStatusEnum
+    {
+        Pending, Approved
     }
 }
