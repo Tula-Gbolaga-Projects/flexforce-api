@@ -20,7 +20,7 @@ jobs:
         key: ${{ secrets.FLEXFORCE_KEYS }}
         port: ${{ secrets.FLEXFORCE_PORT }}
         script: |
-          cd /usr//usr/flexforce-project/flexforce-api
+          cd /usr/flexforce-project/flexforce-api/
           sudo git pull origin main
           sudo docker build -t flex-force-api .
           sudo docker rm -f flex-force-api || true
