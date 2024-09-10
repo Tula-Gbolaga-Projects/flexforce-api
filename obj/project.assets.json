@@ -7861,19 +7861,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ogunt\\.nuget\\packages\\": {}
+    "C:\\Users\\Ilife\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
+      "projectUniqueName": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
       "projectName": "agency-portal-api",
-      "projectPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
-      "packagesPath": "C:\\Users\\ogunt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\obj\\",
+      "projectPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
+      "packagesPath": "C:\\Users\\Ilife\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ogunt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ilife\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7881,7 +7886,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7967,7 +7971,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
