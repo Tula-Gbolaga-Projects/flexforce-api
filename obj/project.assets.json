@@ -7861,27 +7861,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ogunt\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
+      "projectUniqueName": "/usr/flexforce-project/flexforce-api/agency-portal-api.csproj",
       "projectName": "agency-portal-api",
-      "projectPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\agency-portal-api.csproj",
-      "packagesPath": "C:\\Users\\ogunt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ogunt\\Desktop\\Personal-Projects\\agency-portal\\agency-portal-api\\obj\\",
+      "projectPath": "/usr/flexforce-project/flexforce-api/agency-portal-api.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/usr/flexforce-project/flexforce-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ogunt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7967,7 +7964,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
