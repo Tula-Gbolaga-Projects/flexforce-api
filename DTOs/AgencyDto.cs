@@ -1,4 +1,6 @@
-﻿namespace agency_portal_api.DTOs
+﻿using agency_portal_api.Entities;
+
+namespace agency_portal_api.DTOs
 {
     public class CreateAgencyDto
     {
@@ -8,6 +10,7 @@
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         public string Logo { get; set; }
+        public CreateUserDto AgencyStaff { get; set; }
     }
 
     public class GetAgencyDto
@@ -22,5 +25,6 @@
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; }
         public bool IsActive { get; set; }
+        public string Status { get; set; }
     }
 }

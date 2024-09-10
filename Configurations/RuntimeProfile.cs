@@ -19,12 +19,35 @@ namespace agency_portal_api.Configurations
             CreateMap<CreateJobSeekerDto, User>();
             CreateMap<CreateJobSeekerDto, JobSeeker>();
             CreateMap<JobSeeker, GetJobSeekerDto>();
+            CreateMap<JobSeeker, GetJobSeekerProfileDto>()
+                .ForMember(dest => dest.User, option => option
+                .MapFrom(src => new GetUserDto() 
+                { 
+                    Id = src.UserId,
+                    DateCreated = src.User.DateCreated,
+                    FirstName = src.User.FirstName,
+                    LastName = src.User.LastName,
+                    Email = src.User.Email, 
+                    PhoneNumber = src.User.PhoneNumber,
+                    IsActive = src.User.IsActive
+                }));
             #endregion
 
             #region Agency Staff mappings
             CreateMap<CreateAgencyStaffDto, User>();
             CreateMap<CreateAgencyStaffDto, AgencyStaff>();
-            CreateMap<AgencyStaff, GetAgencyStaffDto>();
+            CreateMap<AgencyStaff, GetAgencyStaffDto>()
+                .ForMember(dest => dest.User, option => option
+                .MapFrom(src => new GetUserDto()
+                {
+                    Id = src.UserId,
+                    DateCreated = src.User.DateCreated,
+                    FirstName = src.User.FirstName,
+                    LastName = src.User.LastName,
+                    Email = src.User.Email,
+                    PhoneNumber = src.User.PhoneNumber,
+                    IsActive = src.User.IsActive
+                }));
             #endregion
 
             #region Agency mappings
@@ -35,6 +58,26 @@ namespace agency_portal_api.Configurations
             #region Job Detail mappings
             CreateMap<CreateJobDetailDto, JobDetail>();
             CreateMap<JobDetail, GetJobDetailDto>();
+            #endregion
+
+            #region Applied Job mappings
+            CreateMap<AppliedJob, GetAppliedJobDto>()
+                .ForMember(dest => dest.JobDetail, option => option
+                .MapFrom(src => src.JobDetail.Name))
+                .ForMember(dest => dest.StartDate, option => option
+                .MapFrom(src => src.JobDetail.StartDate))
+                .ForMember(dest => dest.EndDate, option => option
+                .MapFrom(src => src.JobDetail.EndDate))
+                .ForMember(dest => dest.Status, option => option
+                .MapFrom(src => src.Status))
+                .ForMember(dest => dest.Agency, option => option
+                .MapFrom(src => src.JobDetail.Agency.Name))
+                .ForMember(dest => dest.PayRate, option => option
+                .MapFrom(src => src.JobDetail.PayRate))
+                .ForMember(dest => dest.Industry, option => option
+                .MapFrom(src => src.JobDetail.Industry))
+                .ForMember(dest => dest.Location, option => option
+                .MapFrom(src => src.JobDetail.Location));
             #endregion
         }
     }

@@ -10,6 +10,7 @@ namespace agency_portal_api.Entities
 
         [Required]
         public string Title { get; set; }
+
         [Required]
         public string Name { get; set; }
         public double PayRate { get; set; }
@@ -17,8 +18,15 @@ namespace agency_portal_api.Entities
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Industry { get; set; }
+        public string Location { get; set; }
         public string Description { get; set; }
         public string Role { get; set; }
         public string DressCode { get; set; }
+        public JobPublicityEnum Publicity { get; set; }
+    }
+
+    public enum JobPublicityEnum
+    {
+        Public, Private
     }
 }

@@ -5,7 +5,6 @@ namespace agency_portal_api.DTOs
 {
     public class CreateAgencyStaffDto : CreateUserDto
     {
-        public string RoleName { get; set; }
         public string AgencyId { get; set; }
         public string ProfilePicture { get; set; }
     }

@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = agency_portal_api
 build_property.RootNamespace = agency_portal_api
+<<<<<<< HEAD
 build_property.ProjectDir = /usr/flexforce-project/flexforce-api/
+=======
+build_property.ProjectDir = C:\Users\Ilife\source\repos\flexforce-api\
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = /usr/flexforce-project/flexforce-api
+=======
+build_property.MSBuildProjectDirectory = C:\Users\Ilife\source\repos\flexforce-api
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
 build_property._RazorSourceGeneratorDebug = 

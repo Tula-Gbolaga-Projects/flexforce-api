@@ -6,6 +6,7 @@ using agency_portal_api.DTOs.ServiceDtos;
 using agency_portal_api.Services;
 using agency_portal_api.Entities;
 using agency_portal_api.DTOs.Enums;
+using agency_portal_api.DTOs.Consts;
 
 namespace agency_portal_api.Services
 {
@@ -14,6 +15,7 @@ namespace agency_portal_api.Services
         Task<CustomResponse<GetJobSeekerDto>> Create(CreateJobSeekerDto jobSeeker, CancellationToken token);
         Task<CustomResponse<GetJobSeekerDto>> GetById(string jobSeekerId, CancellationToken token);
         Task<List<GetJobSeekerDto>> GetPaginatedResult(CancellationToken token);
+        Task<CustomResponse<GetJobSeekerDto>> Profile(string jobSeekerId, CancellationToken token);
     }
 
     public class JobSeekerService : IJobSeekerService
@@ -40,11 +42,12 @@ namespace agency_portal_api.Services
 
             var jobSeeker = mapper.Map<JobSeeker>(model);
 
-            var userResponse = await userService.CreateUser(model, token);
+            var userResponse = await userService.CreateUser(model, Roles.JobSeeker, token);
             if (userResponse.Response != ServiceResponses.Success)
                 return new CustomResponse<GetJobSeekerDto>() { Response = userResponse.Response, Message = userResponse.Message };
 
             jobSeeker.UserId = userResponse.Data.Id;
+            jobSeeker.Id = userResponse.Data.Id;
 
             var result = await repository.AddAsync(jobSeeker, token);
             if (result)
@@ -97,5 +100,31 @@ namespace agency_portal_api.Services
             return repository.ListAll<JobSeeker>();
         }
 
+
+        public async Task<CustomResponse<GetJobSeekerDto>> Profile(string jobSeekerId, CancellationToken token)
+        {
+            if (string.IsNullOrEmpty(jobSeekerId))
+            {
+                return new ServiceError<GetJobSeekerDto>().NullError();
+            }
+
+            var jobSeeker = await ListAll()
+                .Include(c => c.User)
+                .FirstOrDefaultAsync(c => c.Id == jobSeekerId);
+
+            if (jobSeeker == null)
+            {
+                return new ServiceError<GetJobSeekerDto>().FindError();
+            }
+
+            var mapped = mapper.Map<GetJobSeekerDto>(jobSeeker);
+            mapped.User = mapper.Map<GetUserDto>(jobSeeker.User);
+
+            return new CustomResponse<GetJobSeekerDto>()
+            {
+                Response = ServiceResponses.Success,
+                Data = mapped
+            };
+        }
     }
 }

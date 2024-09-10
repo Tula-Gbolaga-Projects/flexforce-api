@@ -10,7 +10,6 @@
         public string Brp { get; set; }
         public string NationalInsurance { get; set; }
         public string ShareCode { get; set; }
-        public string RoleName { get; set; }
     }
 
     public class GetJobSeekerDto
@@ -26,6 +25,25 @@
         public string ShareCode { get; set; }
         public bool IsActive { get; set; }
         public DateTime DateCreated { get; set; }
+        public string UserId { get; set; }
+        public GetUserDto User { get; set; }
+    }
+
+    public class GetJobSeekerProfileDto
+    {
+        public string Id { get; set; }
+        public string ProfilePicture { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public string AboutMe { get; set; }
+        public string CV { get; set; }
+        public string InternationalPass { get; set; }
+        public string Brp { get; set; }
+        public string NationalInsurance { get; set; }
+        public string ShareCode { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime DateCreated { get; set; }
+        public int TotalJobsDone { get; set; }
+        public int TotalHoursWorked { get; set; }
         public string UserId { get; set; }
         public GetUserDto User { get; set; }
     }

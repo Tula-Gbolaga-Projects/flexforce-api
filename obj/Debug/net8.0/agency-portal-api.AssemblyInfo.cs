@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef9722cdd80f7ce695fd60e1fbe749501f605cf1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0845c64b74b0936d190ae72852d442eeda67ed23")]
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
 [assembly: System.Reflection.AssemblyProductAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

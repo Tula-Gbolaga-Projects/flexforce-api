@@ -12,7 +12,7 @@ namespace agency_portal_api.Services
     public interface IUserService
     {
         Task<User> FindByEmail(string email);
-        Task<CustomResponse<User>> CreateUser(CreateUserDto model, CancellationToken token);
+        Task<CustomResponse<User>> CreateUser(CreateUserDto model, string roleName, CancellationToken token);
         Task<CustomResponse<User>> GetUserById(string id, CancellationToken token);
         IQueryable<User> ListAll();
         Task<CustomResponse<bool>> CheckPassword(User user, string password);
@@ -48,7 +48,7 @@ namespace agency_portal_api.Services
         }
 
 
-        public async Task<CustomResponse<User>> CreateUser(CreateUserDto model, CancellationToken token)
+        public async Task<CustomResponse<User>> CreateUser(CreateUserDto model, string roleName, CancellationToken token)
         {
             if (model == null)
                 return new CustomResponse<User>(ServiceResponses.BadRequest, null, "User cannot be null");
@@ -64,7 +64,7 @@ namespace agency_portal_api.Services
 
             var user = mapper.Map<User>(model);
             user.UserName = user.UserName ?? user.Email;
-            user.RoleName = user.RoleName ?? "Admin";
+            user.RoleName = roleName ?? "Admin";
 
             var createResult = await Create(user, model.Password, token);
 

@@ -6,6 +6,7 @@ using agency_portal_api.DTOs.ServiceDtos;
 using agency_portal_api.Services;
 using agency_portal_api.Entities;
 using agency_portal_api.DTOs.Enums;
+using agency_portal_api.DTOs.Consts;
 
 namespace agency_portal_api.Services
 {
@@ -38,11 +39,12 @@ namespace agency_portal_api.Services
 
             var agencyStaff = mapper.Map<AgencyStaff>(model);
 
-            var userResponse = await userService.CreateUser(model, token);
+            var userResponse = await userService.CreateUser(model, Roles.AgencyStaff, token);
             if(userResponse.Response != ServiceResponses.Success)
                 return new CustomResponse<GetAgencyStaffDto>() { Response = userResponse.Response , Message = userResponse.Message};
 
             agencyStaff.UserId = userResponse.Data.Id;
+            agencyStaff.Id = userResponse.Data.Id;
 
             var result = await repository.AddAsync(agencyStaff, token);
             if (result)

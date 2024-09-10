@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/usr/flexforce-project/flexforce-api/agency-portal-api.csproj": {}
   },
   "projects": {
@@ -12,14 +13,40 @@
         "projectPath": "/usr/flexforce-project/flexforce-api/agency-portal-api.csproj",
         "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/usr/flexforce-project/flexforce-api/obj/",
+=======
+    "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
+        "projectName": "agency-portal-api",
+        "projectPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.csproj",
+        "packagesPath": "C:\\Users\\Ilife\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\obj\\",
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "/root/.nuget/NuGet/NuGet.Config"
+=======
+          "C:\\Users\\Ilife\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+<<<<<<< HEAD
+=======
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,7 +132,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 208fc94285e6daa1ae0e30f91cd7fd53c4ae1247
         }
       }
     }

@@ -38,7 +38,7 @@ namespace agency_portal_api.Controllers.V1
         [HttpGet("list-all")]
         [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto[]>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> ListAllAgencies(int page, int perPage, CancellationToken token)
+        public async Task<IActionResult> ListAllAgencies(CancellationToken token)
         {
             return Ok(ResponseBuilder.BuildResponse<object>(null, await agencyService.GetPaginatedResult(token)));
         }
