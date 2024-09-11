@@ -15,6 +15,7 @@ namespace agency_portal_api.Services
         Task<CustomResponse<GetAgencyDto>> GetById(string agencyId, CancellationToken token);
         Task<List<GetAgencyDto>> GetPaginatedResult(CancellationToken token);
         Task<CustomResponse<GetAgencyDto>> ActivateAgency(string agencyId, CancellationToken token);
+        IQueryable<Agency> ListAll();
     }
 
     public class AgencyService : IAgencyService

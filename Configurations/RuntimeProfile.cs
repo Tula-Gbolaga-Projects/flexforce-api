@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Security.Cryptography.Xml;
 using agency_portal_api.DTOs;
 using agency_portal_api.Entities;
+using AutoMapper.Execution;
 
 namespace agency_portal_api.Configurations
 {
@@ -79,6 +80,47 @@ namespace agency_portal_api.Configurations
                 .ForMember(dest => dest.Location, option => option
                 .MapFrom(src => src.JobDetail.Location));
             #endregion
+
+            #region Seeker Connected Agency mappings
+            CreateMap<Agency, SeekerConnectedAgencyDto>()
+                .ForMember(dest => dest.AgencyName, option => option
+                .MapFrom(src => src.Name))
+                .ForMember(dest => dest.Agencyid, option => option
+                .MapFrom(src => src.Id))
+                .ForMember(dest => dest.Brief, option => option
+                .MapFrom(src => src.Description))
+                .ForMember(dest => dest.Email, option => option
+                .MapFrom(src => src.Email))
+                .ForMember(dest => dest.Address, option => option
+                .MapFrom(src => src.Address))
+                .ForMember(dest => dest.Status, option => option
+                .MapFrom<GetConnectedAgencyStatusResolver>())
+                .ForMember(dest => dest.PrimaryStaff, option => option
+                .MapFrom(src => src.Staff == null ? null : $"{src.Staff.FirstOrDefault().User.FirstName} {src.Staff.FirstOrDefault().User.LastName}"))
+                .ForMember(dest => dest.PrimaryStaffEmail, option => option
+                .MapFrom(src => src.Staff == null ? null : $"{src.Staff.FirstOrDefault().User.Email}"));
+            #endregion
+        }
+    }
+
+    public class GetConnectedAgencyStatusResolver : IValueResolver<Agency, SeekerConnectedAgencyDto, string>
+    {
+        private readonly IHttpContextAccessor httpContextAccessor;
+
+        public GetConnectedAgencyStatusResolver(IHttpContextAccessor httpContextAccessor)
+        {
+            this.httpContextAccessor = httpContextAccessor;
+        }
+
+        public string Resolve(Agency source, SeekerConnectedAgencyDto destination, string destMember, ResolutionContext context)
+        {
+            var connectedAgency = source.ConnectedSeekers.Where(c => c.JobSeekerId == httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier)).FirstOrDefault();
+            if(connectedAgency == null )
+            {
+                return ConnectedAgencyStatusEnum.NotOnboarded.ToString();
+            }
+
+            return connectedAgency.ConnectedStatus.ToString();
         }
     }
 }

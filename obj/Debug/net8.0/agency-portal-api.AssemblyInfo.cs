@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0845c64b74b0936d190ae72852d442eeda67ed23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ecd66cd0f3a097fbe2e48a94d02a6b9f1bbf3a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agency-portal-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

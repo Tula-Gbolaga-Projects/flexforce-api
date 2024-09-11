@@ -1,4 +1,6 @@
-﻿namespace agency_portal_api.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace agency_portal_api.Entities
 {
     public class Agency : DbEntity
     {
@@ -10,6 +12,8 @@
         public string Logo { get; set; }
         public AgencyStatusEnum Status { get; set; }
         public DateTime? DateApproved { get; set; }
+        public List<ConnectedAgency> ConnectedSeekers { get; set; }
+        public List<AgencyStaff> Staff { get; set; }
     }
 
     public enum AgencyStatusEnum

@@ -12,6 +12,8 @@ namespace agency_portal_api.Entities
         public string AgencyId { get; set; }
         public Agency Agency { get; set; }
 
+        public bool IsPrimary { get; set; }
+
         public string ProfilePicture { get; set; }
     }
 }

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\configurations\\scopedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:configurations\\scopedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\configurations\\runtimeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:configurations\\runtimeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\connectedagencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +15,52 @@
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\seekerconnectedagencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\agencystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\agencystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\agencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:services\\agencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\connectedagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\connectedagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\jobdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:services\\jobdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\controllers\\v1\\jobseekerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:controllers\\v1\\jobseekerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\dtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\agency-portal-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:agency-portal-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\configurations\\scopedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:configurations\\scopedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\controllers\\v1\\agenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +71,16 @@
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\appliedjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\dtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\jobdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\jobdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\connectedagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\connectedagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\controllers\\v1\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:controllers\\v1\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\jobdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:services\\jobdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\appliedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:services\\appliedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\configurations\\runtimeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:configurations\\runtimeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\appliedjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\jobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,14 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\entities\\agencystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:entities\\agencystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\services\\agencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:services\\agencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\controllers\\v1\\authenticationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:dtos\\servicedtos\\customresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|c:\\users\\ilife\\source\\repos\\flexforce-api\\configurations\\swaggerbaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213D79A-FD4F-40FF-9851-33621E9CDBEE}|agency-portal-api.csproj|solutionrelative:configurations\\swaggerbaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -266,7 +270,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 366,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,621 +318,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobSeekersController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobSeekersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\V1\\JobSeekersController.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobSeekersController.cs",
-              "RelativeToolTip": "Controllers\\V1\\JobSeekersController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwEYAAABMAAAA",
+              "DocumentIndex": 0,
+              "Title": "RuntimeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\RuntimeProfile.cs",
+              "RelativeDocumentMoniker": "Configurations\\RuntimeProfile.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\RuntimeProfile.cs",
+              "RelativeToolTip": "Configurations\\RuntimeProfile.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv1gAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T03:14:11.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "JobDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobDetail.cs",
-              "RelativeDocumentMoniker": "Entities\\JobDetail.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobDetail.cs",
-              "RelativeToolTip": "Entities\\JobDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:16:58.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JobDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobDetailDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\JobDetailDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobDetailDto.cs",
-              "RelativeToolTip": "DTOs\\JobDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:13:42.301Z"
+              "WhenOpened": "2024-08-24T23:38:35.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConnectedAgencyService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\ConnectedAgencyService.cs",
-              "RelativeDocumentMoniker": "Services\\ConnectedAgencyService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\ConnectedAgencyService.cs",
-              "RelativeToolTip": "Services\\ConnectedAgencyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T19:10:32.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppliedJobDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AppliedJobDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AppliedJobDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AppliedJobDto.cs",
-              "RelativeToolTip": "DTOs\\AppliedJobDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T19:24:06.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AgenciesController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AgenciesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\V1\\AgenciesController.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AgenciesController.cs",
-              "RelativeToolTip": "Controllers\\V1\\AgenciesController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwDQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:46:31.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScopedServices.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ScopedServices.cs",
-              "RelativeDocumentMoniker": "Configurations\\ScopedServices.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ScopedServices.cs",
-              "RelativeToolTip": "Configurations\\ScopedServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:39:00.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "20240907194927_JobInviteMigrations.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240907194927_JobInviteMigrations.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240907194927_JobInviteMigrations.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240907194927_JobInviteMigrations.cs",
-              "RelativeToolTip": "Migrations\\20240907194927_JobInviteMigrations.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T19:49:27.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-25T00:51:06.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SeekerConnectedAgencyDto.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\SeekerConnectedAgencyDto.cs",
               "RelativeDocumentMoniker": "DTOs\\SeekerConnectedAgencyDto.cs",
               "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\SeekerConnectedAgencyDto.cs",
               "RelativeToolTip": "DTOs\\SeekerConnectedAgencyDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T19:52:30.918Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ConnectedAgency.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\ConnectedAgency.cs",
-              "RelativeDocumentMoniker": "Entities\\ConnectedAgency.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\ConnectedAgency.cs",
-              "RelativeToolTip": "Entities\\ConnectedAgency.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Title": "JobSeekersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobSeekersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V1\\JobSeekersController.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobSeekersController.cs",
+              "RelativeToolTip": "Controllers\\V1\\JobSeekersController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA9wEsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T18:34:06.313Z"
+              "WhenOpened": "2024-08-25T03:14:11.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "JobDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobDetailsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\V1\\JobDetailsController.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobDetailsController.cs",
-              "RelativeToolTip": "Controllers\\V1\\JobDetailsController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T03:21:25.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "JobDetailService.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobDetailService.cs",
               "RelativeDocumentMoniker": "Services\\JobDetailService.cs",
               "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobDetailService.cs",
               "RelativeToolTip": "Services\\JobDetailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T01:37:58.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppliedJobService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AppliedJobService.cs",
-              "RelativeDocumentMoniker": "Services\\AppliedJobService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AppliedJobService.cs",
-              "RelativeToolTip": "Services\\AppliedJobService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T19:23:20.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RuntimeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\RuntimeProfile.cs",
-              "RelativeDocumentMoniker": "Configurations\\RuntimeProfile.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\RuntimeProfile.cs",
-              "RelativeToolTip": "Configurations\\RuntimeProfile.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAADwvz0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:38:35.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "Agency.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\Agency.cs",
               "RelativeDocumentMoniker": "Entities\\Agency.cs",
               "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\Agency.cs",
               "RelativeToolTip": "Entities\\Agency.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T22:37:25.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AppliedJob.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AppliedJob.cs",
-              "RelativeDocumentMoniker": "Entities\\AppliedJob.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AppliedJob.cs",
-              "RelativeToolTip": "Entities\\AppliedJob.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "DocumentIndex": 1,
+              "Title": "ConnectedAgencyService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\ConnectedAgencyService.cs",
+              "RelativeDocumentMoniker": "Services\\ConnectedAgencyService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\ConnectedAgencyService.cs",
+              "RelativeToolTip": "Services\\ConnectedAgencyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:26:30.366Z"
+              "WhenOpened": "2024-09-07T19:10:32.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JobSeekerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobSeekerDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\JobSeekerDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobSeekerDto.cs",
-              "RelativeToolTip": "DTOs\\JobSeekerDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "DocumentIndex": 7,
+              "Title": "ConnectedAgency.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\ConnectedAgency.cs",
+              "RelativeDocumentMoniker": "Entities\\ConnectedAgency.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\ConnectedAgency.cs",
+              "RelativeToolTip": "Entities\\ConnectedAgency.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:13:13.494Z"
+              "WhenOpened": "2024-09-07T18:34:06.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "JobSeekerService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobSeekerService.cs",
-              "RelativeDocumentMoniker": "Services\\JobSeekerService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobSeekerService.cs",
-              "RelativeToolTip": "Services\\JobSeekerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:50:48.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\User.cs",
-              "RelativeToolTip": "Entities\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T22:29:49.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "JobSeeker.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobSeeker.cs",
-              "RelativeDocumentMoniker": "Entities\\JobSeeker.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobSeeker.cs",
-              "RelativeToolTip": "Entities\\JobSeeker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T22:37:41.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AgencyStaffService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyStaffService.cs",
-              "RelativeDocumentMoniker": "Services\\AgencyStaffService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyStaffService.cs",
-              "RelativeToolTip": "Services\\AgencyStaffService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwC4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:45:08.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "Services\\AuthenticationService.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAcwFgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:49:24.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAADwvywAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:55:43.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "DTOs\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:58:32.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdministratorsController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AdministratorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\V1\\AdministratorsController.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AdministratorsController.cs",
-              "RelativeToolTip": "Controllers\\V1\\AdministratorsController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T18:44:57.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:51:02.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 6,
               "Title": "AgencyService.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyService.cs",
               "RelativeDocumentMoniker": "Services\\AgencyService.cs",
               "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyService.cs",
               "RelativeToolTip": "Services\\AgencyService.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAYwHsAAAANAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwHkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T01:43:54.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AuthenticationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AuthenticationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\V1\\AuthenticationsController.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AuthenticationsController.cs",
-              "RelativeToolTip": "Controllers\\V1\\AuthenticationsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T03:05:25.703Z"
+              "WhenOpened": "2024-08-24T22:29:49.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 3,
               "Title": "AgencyStaff.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AgencyStaff.cs",
               "RelativeDocumentMoniker": "Entities\\AgencyStaff.cs",
               "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AgencyStaff.cs",
               "RelativeToolTip": "Entities\\AgencyStaff.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T22:37:33.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\LoginRequestDto.cs",
-              "RelativeToolTip": "DTOs\\LoginRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAFAAAA",
+              "DocumentIndex": 10,
+              "Title": "JobDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobDetailDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\JobDetailDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobDetailDto.cs",
+              "RelativeToolTip": "DTOs\\JobDetailDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:51:03.567Z"
+              "WhenOpened": "2024-08-25T01:13:42.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AgencyStaffDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyStaffDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AgencyStaffDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyStaffDto.cs",
-              "RelativeToolTip": "DTOs\\AgencyStaffDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:13:24.483Z"
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-25T00:51:06.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AgencyDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AgencyDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyDto.cs",
-              "RelativeToolTip": "DTOs\\AgencyDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:08:17.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DbEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\DbEntity.cs",
-              "RelativeDocumentMoniker": "Entities\\DbEntity.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\DbEntity.cs",
-              "RelativeToolTip": "Entities\\DbEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T22:29:57.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Consts\\Roles.cs",
-              "RelativeDocumentMoniker": "DTOs\\Consts\\Roles.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Consts\\Roles.cs",
-              "RelativeToolTip": "DTOs\\Consts\\Roles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T18:17:19.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-27T02:06:48.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAASwBAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:43:53.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "RepositoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\RepositoryService.cs",
-              "RelativeDocumentMoniker": "Services\\RepositoryService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\RepositoryService.cs",
-              "RelativeToolTip": "Services\\RepositoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:55:21.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "MailJetService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\MailJetService.cs",
-              "RelativeDocumentMoniker": "Services\\MailJetService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\MailJetService.cs",
-              "RelativeToolTip": "Services\\MailJetService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:58:25.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "MailjetDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\MailjetDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\MailjetDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\MailjetDto.cs",
-              "RelativeToolTip": "DTOs\\MailjetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:05:36.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DbTransactionService.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\DbTransactionService.cs",
-              "RelativeDocumentMoniker": "Services\\DbTransactionService.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\DbTransactionService.cs",
-              "RelativeToolTip": "Services\\DbTransactionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T00:05:14.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20240825024441_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240825024441_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240825024441_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240825024441_InitialMigration.cs",
-              "RelativeToolTip": "Migrations\\20240825024441_InitialMigration.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAgwOUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:44:42.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ControllerResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\ControllerResponse.cs",
-              "RelativeDocumentMoniker": "Controllers\\ControllerResponse.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\ControllerResponse.cs",
-              "RelativeToolTip": "Controllers\\ControllerResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:46:02.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AuthResponseDto.cs",
-              "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:50:09.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "DatabaseConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\DatabaseConfiguration.cs",
-              "RelativeDocumentMoniker": "Configurations\\DatabaseConfiguration.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\DatabaseConfiguration.cs",
-              "RelativeToolTip": "Configurations\\DatabaseConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:38:02.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "Configurations\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "Configurations\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:38:30.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "GlobalResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\GlobalResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\ControllerDtos\\GlobalResponse.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\GlobalResponse.cs",
-              "RelativeToolTip": "DTOs\\ControllerDtos\\GlobalResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:29:40.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ErrorItemModel.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\ErrorItemModel.cs",
-              "RelativeDocumentMoniker": "DTOs\\ControllerDtos\\ErrorItemModel.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\ErrorItemModel.cs",
-              "RelativeToolTip": "DTOs\\ControllerDtos\\ErrorItemModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:29:32.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ResponseBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\ResponseBuilder.cs",
-              "RelativeDocumentMoniker": "Utilities\\ResponseBuilder.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\ResponseBuilder.cs",
-              "RelativeToolTip": "Utilities\\ResponseBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:33:33.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ServiceResponses.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Enums\\ServiceResponses.cs",
-              "RelativeDocumentMoniker": "DTOs\\Enums\\ServiceResponses.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Enums\\ServiceResponses.cs",
-              "RelativeToolTip": "DTOs\\Enums\\ServiceResponses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:36:43.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "CustomResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ServiceDtos\\CustomResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ServiceDtos\\CustomResponseDto.cs",
-              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ServiceDtos\\CustomResponseDto.cs",
-              "RelativeToolTip": "DTOs\\ServiceDtos\\CustomResponseDto.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAiwFoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:35:45.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -940,7 +475,487 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
+              "Title": "20240907194927_JobInviteMigrations.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240907194927_JobInviteMigrations.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240907194927_JobInviteMigrations.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240907194927_JobInviteMigrations.cs",
+              "RelativeToolTip": "Migrations\\20240907194927_JobInviteMigrations.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:49:27.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScopedServices.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ScopedServices.cs",
+              "RelativeDocumentMoniker": "Configurations\\ScopedServices.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ScopedServices.cs",
+              "RelativeToolTip": "Configurations\\ScopedServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:39:00.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AgenciesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AgenciesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V1\\AgenciesController.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AgenciesController.cs",
+              "RelativeToolTip": "Controllers\\V1\\AgenciesController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:46:31.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppliedJobDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AppliedJobDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AppliedJobDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AppliedJobDto.cs",
+              "RelativeToolTip": "DTOs\\AppliedJobDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:24:06.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "agency-portal-api.http",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.http",
+              "RelativeDocumentMoniker": "agency-portal-api.http",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\agency-portal-api.http",
+              "RelativeToolTip": "agency-portal-api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-10T16:37:31.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JobDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobDetail.cs",
+              "RelativeDocumentMoniker": "Entities\\JobDetail.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobDetail.cs",
+              "RelativeToolTip": "Entities\\JobDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:16:58.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JobDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V1\\JobDetailsController.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\JobDetailsController.cs",
+              "RelativeToolTip": "Controllers\\V1\\JobDetailsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T03:21:25.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppliedJobService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AppliedJobService.cs",
+              "RelativeDocumentMoniker": "Services\\AppliedJobService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AppliedJobService.cs",
+              "RelativeToolTip": "Services\\AppliedJobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:23:20.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppliedJob.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AppliedJob.cs",
+              "RelativeDocumentMoniker": "Entities\\AppliedJob.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\AppliedJob.cs",
+              "RelativeToolTip": "Entities\\AppliedJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:26:30.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JobSeekerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobSeekerDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\JobSeekerDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\JobSeekerDto.cs",
+              "RelativeToolTip": "DTOs\\JobSeekerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T01:13:13.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobSeekerService.cs",
+              "RelativeDocumentMoniker": "Services\\JobSeekerService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\JobSeekerService.cs",
+              "RelativeToolTip": "Services\\JobSeekerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T01:50:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JobSeeker.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobSeeker.cs",
+              "RelativeDocumentMoniker": "Entities\\JobSeeker.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\JobSeeker.cs",
+              "RelativeToolTip": "Entities\\JobSeeker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:37:41.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AgencyStaffService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyStaffService.cs",
+              "RelativeDocumentMoniker": "Services\\AgencyStaffService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AgencyStaffService.cs",
+              "RelativeToolTip": "Services\\AgencyStaffService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwC4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T01:45:08.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwFgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:49:24.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAADwvywAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:55:43.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:58:32.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdministratorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AdministratorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V1\\AdministratorsController.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AdministratorsController.cs",
+              "RelativeToolTip": "Controllers\\V1\\AdministratorsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:44:57.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:51:02.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthenticationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AuthenticationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V1\\AuthenticationsController.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\V1\\AuthenticationsController.cs",
+              "RelativeToolTip": "Controllers\\V1\\AuthenticationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T03:05:25.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "DTOs\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:51:03.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AgencyStaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyStaffDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AgencyStaffDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyStaffDto.cs",
+              "RelativeToolTip": "DTOs\\AgencyStaffDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T01:13:24.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AgencyDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AgencyDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AgencyDto.cs",
+              "RelativeToolTip": "DTOs\\AgencyDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T01:08:17.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DbEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\DbEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\DbEntity.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Entities\\DbEntity.cs",
+              "RelativeToolTip": "Entities\\DbEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:29:57.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Consts\\Roles.cs",
+              "RelativeDocumentMoniker": "DTOs\\Consts\\Roles.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Consts\\Roles.cs",
+              "RelativeToolTip": "DTOs\\Consts\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:17:19.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-27T02:06:48.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAASwBAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:43:53.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RepositoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\RepositoryService.cs",
+              "RelativeDocumentMoniker": "Services\\RepositoryService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\RepositoryService.cs",
+              "RelativeToolTip": "Services\\RepositoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:55:21.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MailJetService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\MailJetService.cs",
+              "RelativeDocumentMoniker": "Services\\MailJetService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\MailJetService.cs",
+              "RelativeToolTip": "Services\\MailJetService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:58:25.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MailjetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\MailjetDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MailjetDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\MailjetDto.cs",
+              "RelativeToolTip": "DTOs\\MailjetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:05:36.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DbTransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\DbTransactionService.cs",
+              "RelativeDocumentMoniker": "Services\\DbTransactionService.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Services\\DbTransactionService.cs",
+              "RelativeToolTip": "Services\\DbTransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T00:05:14.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240825024441_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240825024441_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240825024441_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Migrations\\20240825024441_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20240825024441_InitialMigration.cs",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAgwOUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:44:42.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ControllerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\ControllerResponse.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControllerResponse.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\ControllerResponse.cs",
+              "RelativeToolTip": "Controllers\\ControllerResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:46:02.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:50:09.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DatabaseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\DatabaseConfiguration.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeToolTip": "Configurations\\DatabaseConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:38:02.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Configurations\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Configurations\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:38:30.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GlobalResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\GlobalResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\ControllerDtos\\GlobalResponse.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\GlobalResponse.cs",
+              "RelativeToolTip": "DTOs\\ControllerDtos\\GlobalResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:29:40.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ErrorItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\ErrorItemModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\ControllerDtos\\ErrorItemModel.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ControllerDtos\\ErrorItemModel.cs",
+              "RelativeToolTip": "DTOs\\ControllerDtos\\ErrorItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:29:32.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ResponseBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\ResponseBuilder.cs",
+              "RelativeDocumentMoniker": "Utilities\\ResponseBuilder.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\ResponseBuilder.cs",
+              "RelativeToolTip": "Utilities\\ResponseBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:33:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ServiceResponses.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Enums\\ServiceResponses.cs",
+              "RelativeDocumentMoniker": "DTOs\\Enums\\ServiceResponses.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\Enums\\ServiceResponses.cs",
+              "RelativeToolTip": "DTOs\\Enums\\ServiceResponses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:36:43.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CustomResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ServiceDtos\\CustomResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ServiceDtos\\CustomResponseDto.cs",
+              "ToolTip": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ServiceDtos\\CustomResponseDto.cs",
+              "RelativeToolTip": "DTOs\\ServiceDtos\\CustomResponseDto.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:35:45.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "PasswordOptions.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Options\\PasswordOptions.cs",
               "RelativeDocumentMoniker": "Options\\PasswordOptions.cs",
@@ -952,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "SwaggerBaseConfig.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\SwaggerBaseConfig.cs",
               "RelativeDocumentMoniker": "Configurations\\SwaggerBaseConfig.cs",
@@ -964,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "IOptions.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\IOptions.cs",
               "RelativeDocumentMoniker": "Configurations\\IOptions.cs",
@@ -976,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "BaseIdentity.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\BaseIdentity.cs",
               "RelativeDocumentMoniker": "Configurations\\BaseIdentity.cs",
@@ -988,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "ConfigureSwaggerGen.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\ConfigureSwaggerGen.cs",
               "RelativeDocumentMoniker": "Configurations\\ConfigureSwaggerGen.cs",
@@ -1000,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Automapper.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\Automapper.cs",
               "RelativeDocumentMoniker": "Configurations\\Automapper.cs",
@@ -1012,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Authorization.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\Authorization.cs",
               "RelativeDocumentMoniker": "Configurations\\Authorization.cs",
@@ -1024,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Authentication.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Configurations\\Authentication.cs",
               "RelativeDocumentMoniker": "Configurations\\Authentication.cs",
@@ -1036,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "JWT.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\DTOs\\ServiceDtos\\JWT.cs",
               "RelativeDocumentMoniker": "DTOs\\ServiceDtos\\JWT.cs",
@@ -1048,7 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "CodeFunction.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\CodeFunction.cs",
               "RelativeDocumentMoniker": "Utilities\\CodeFunction.cs",
@@ -1060,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "PasswordUtil.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Utilities\\PasswordUtil.cs",
               "RelativeDocumentMoniker": "Utilities\\PasswordUtil.cs",
@@ -1072,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Ilife\\source\\repos\\flexforce-api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",

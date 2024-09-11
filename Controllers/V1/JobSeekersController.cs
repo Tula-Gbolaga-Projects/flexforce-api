@@ -22,14 +22,16 @@ namespace agency_portal_api.Controllers.V1
         private readonly IAppliedJobService appliedJobService;
         private readonly IJobDetailService jobDetailService;
         private readonly IAgencyService agencyService;
+        private readonly IConnectedAgencyService connectedAgencyService;
 
         public JobSeekersController(IJobSeekerService jobSeekerService, IAppliedJobService appliedJobService, 
-            IJobDetailService jobDetailService, IAgencyService agencyService)
+            IJobDetailService jobDetailService, IAgencyService agencyService, IConnectedAgencyService connectedAgencyService)
         {
             this.jobSeekerService = jobSeekerService;
             this.appliedJobService = appliedJobService;
             this.jobDetailService = jobDetailService;
             this.agencyService = agencyService;
+            this.connectedAgencyService = connectedAgencyService;
         }
 
         // POST api/JobSeeker
@@ -72,7 +74,7 @@ namespace agency_portal_api.Controllers.V1
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> AgenciesList(CancellationToken token)
         {
-            return Ok(ResponseBuilder.BuildResponse<object>(null, await jobDetailService.GetPaginatedResult(token)));
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await connectedAgencyService.ListAllSeekerAgencies(token)));
         }
 
         [HttpGet("agencies/{agencyId}")]
