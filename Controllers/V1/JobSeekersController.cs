@@ -74,7 +74,7 @@ namespace agency_portal_api.Controllers.V1
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> AgenciesList(CancellationToken token)
         {
-            return Ok(ResponseBuilder.BuildResponse<object>(null, await connectedAgencyService.ListAllSeekerAgencies(token)));
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await connectedAgencyService.ListAllSeekerAgencies(HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier),token)));
         }
 
         [HttpGet("agencies/{agencyId}")]
