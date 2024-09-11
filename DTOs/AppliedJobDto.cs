@@ -10,9 +10,11 @@ namespace agency_portal_api.DTOs
 
     public class GetAppliedJobDto
     {
+        public string Id { get; set; }
         public string JobDetailId { get; set; }
         public string JobDetail { get; set; }
-
+        public string JobSeekerId { get; set; }
+        public string JobSeeker { get; set; }
         public string Agency { get; set; }
         public string Location { get; set; }
         public string Industry { get; set; }

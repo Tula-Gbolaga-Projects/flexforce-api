@@ -41,6 +41,7 @@ namespace agency_portal_api.Services
             var result = await repository.AddAsync(jobDetail, token);
             if (result)
             {
+                //email users under agency
                 return await GetById(jobDetail.Id, token);
             }
 

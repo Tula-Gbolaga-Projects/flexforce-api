@@ -20,11 +20,13 @@ namespace agency_portal_api.Controllers.V1
     {
         private readonly IAgencyService agencyService;
         private readonly IJobDetailService jobDetailService;
+        private readonly IAppliedJobService appliedJobService;
 
-        public AgenciesController(IAgencyService agencyService, IJobDetailService jobDetailService)
+        public AgenciesController(IAgencyService agencyService, IJobDetailService jobDetailService, IAppliedJobService appliedJobService)
         {
             this.agencyService = agencyService;
             this.jobDetailService = jobDetailService;
+            this.appliedJobService = appliedJobService;
         }
 
         // POST api/Agency
@@ -59,6 +61,30 @@ namespace agency_portal_api.Controllers.V1
         public async Task<IActionResult> GetJobDetailById(string jobDetailId, CancellationToken token)
         {
             return new ControllerResponse().ReturnResponse(await jobDetailService.GetById(jobDetailId, token));
+        }
+
+        [HttpGet("jobs/{jobDetailId}/applications")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAppliedJobDto[]>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ListJobs(string jobDetailId, CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await appliedJobService.GetAppliedJobs(jobDetailId, token)));
+        }
+
+        [HttpPatch("jobs/applications/{jobApplicationId}/approve")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAppliedJobDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ApproveJob(string jobApplicationId, CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await appliedJobService.UpdateApplication(jobApplicationId, AppliedJobStatusEnum.Accepted, token)));
+        }
+
+        [HttpPatch("jobs/applications/{jobApplicationId}/reject")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAppliedJobDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> RejectJob(string jobApplicationId, CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await appliedJobService.UpdateApplication(jobApplicationId, AppliedJobStatusEnum.Rejected, token)));
         }
     }
 }

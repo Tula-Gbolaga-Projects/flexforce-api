@@ -63,6 +63,8 @@ namespace agency_portal_api.Configurations
 
             #region Applied Job mappings
             CreateMap<AppliedJob, GetAppliedJobDto>()
+                .ForMember(dest => dest.JobSeeker, option => option
+                .MapFrom(src => $"{src.JobSeeker.User.FirstName} {src.JobSeeker.User.LastName}"))
                 .ForMember(dest => dest.JobDetail, option => option
                 .MapFrom(src => src.JobDetail.Name))
                 .ForMember(dest => dest.StartDate, option => option
