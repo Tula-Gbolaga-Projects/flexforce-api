@@ -34,7 +34,6 @@ namespace agency_portal_api.Controllers.V1
             this.connectedAgencyService = connectedAgencyService;
         }
 
-        // POST api/JobSeeker
         [HttpPost("create")]
         [AllowAnonymous]
         [ProducesResponseType(typeof(GlobalResponse<GetJobSeekerDto>), StatusCodes.Status200OK)]
@@ -44,7 +43,6 @@ namespace agency_portal_api.Controllers.V1
             return new ControllerResponse().ReturnResponse(await jobSeekerService.Create(model, token));
         }
 
-        // GET api/JobSeeker/{jobSeekerId}
         [HttpGet("profile")]
         [ProducesResponseType(typeof(GlobalResponse<GetJobSeekerDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
@@ -59,6 +57,14 @@ namespace agency_portal_api.Controllers.V1
         public async Task<IActionResult> ApplyToJob(CreateAppliedJobDto model, CancellationToken token)
         {
             return new ControllerResponse().ReturnResponse(await appliedJobService.ApplyToJob(HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier), model.JobDetailId, token));
+        }
+
+        [HttpGet("appliedjobs/list-all")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAppliedJobDto[]>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ListJobs(CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await appliedJobService.GetAppliedJobs(HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier), token)));
         }
 
         [HttpGet("jobs/list-all")]
