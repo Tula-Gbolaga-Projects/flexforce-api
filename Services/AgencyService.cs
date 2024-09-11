@@ -23,12 +23,14 @@ namespace agency_portal_api.Services
         private readonly IRepository repository;
         private readonly IAgencyStaffService agencyStaffService;
         private IMapper mapper;
+        private readonly IMailJetService mailJetService;
 
-        public AgencyService(IRepository repository, IMapper mapper, IAgencyStaffService agencyStaffService)
+        public AgencyService(IRepository repository, IMapper mapper, IAgencyStaffService agencyStaffService, IMailJetService mailJetService)
         {
             this.repository = repository;
             this.mapper = mapper;
             this.agencyStaffService = agencyStaffService;
+            this.mailJetService = mailJetService;
         }
 
         public async Task<CustomResponse<GetAgencyDto>> Create(CreateAgencyDto model, CancellationToken token)
@@ -54,7 +56,7 @@ namespace agency_portal_api.Services
                     PhoneNumber = model.AgencyStaff.PhoneNumber
                 };
 
-                var createdStaffResponse = await agencyStaffService.Create(agencyStaffDto, token);
+                var createdStaffResponse = await agencyStaffService.Create(agencyStaffDto, true, token);
                 if(createdStaffResponse.Response != ServiceResponses.Success)
                 {
                     await Delete(agency.Id, token);
@@ -120,8 +122,13 @@ namespace agency_portal_api.Services
         public async Task<CustomResponse<GetAgencyDto>> ActivateAgency(string agencyId, CancellationToken token)
         {
             var agency = await ListAll().FirstOrDefaultAsync(c => c.Id == agencyId);
-
             if (agency == null)
+            {
+                return new ServiceError<GetAgencyDto>().FindError();
+            }
+
+            var agencyStaff = await repository.ListAll<AgencyStaff>().Include(c => c.User).FirstOrDefaultAsync(c => c.AgencyId == agencyId && c.IsPrimary, token);
+            if (agencyStaff == null)
             {
                 return new ServiceError<GetAgencyDto>().FindError();
             }
@@ -133,6 +140,7 @@ namespace agency_portal_api.Services
             var updateResponse = await repository.ModifyAsync(agency);
             if (updateResponse)
             {
+                await mailJetService.SendMail(agencyStaff.User.Email, "Your agency has been activated successfully", "Activation Successful", token, false);
                 return await GetById(agencyId, token);
             }
 

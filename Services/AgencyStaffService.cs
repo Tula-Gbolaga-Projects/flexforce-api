@@ -12,7 +12,7 @@ namespace agency_portal_api.Services
 {
     public interface IAgencyStaffService
     {
-        Task<CustomResponse<GetAgencyStaffDto>> Create(CreateAgencyStaffDto agencyStaff, CancellationToken token);
+        Task<CustomResponse<GetAgencyStaffDto>> Create(CreateAgencyStaffDto agencyStaff, bool primaryStaff, CancellationToken token);
         Task<CustomResponse<GetAgencyStaffDto>> GetById(string agencyStaffId, CancellationToken token);
         Task<List<GetAgencyStaffDto>> GetPaginatedResult(CancellationToken token);
     }
@@ -30,7 +30,7 @@ namespace agency_portal_api.Services
             this.userService = userService;
         }
 
-        public async Task<CustomResponse<GetAgencyStaffDto>> Create(CreateAgencyStaffDto model, CancellationToken token)
+        public async Task<CustomResponse<GetAgencyStaffDto>> Create(CreateAgencyStaffDto model, bool primaryStaff, CancellationToken token)
         {
             if (model == null)
             {
@@ -38,6 +38,7 @@ namespace agency_portal_api.Services
             }
 
             var agencyStaff = mapper.Map<AgencyStaff>(model);
+            agencyStaff.IsPrimary = primaryStaff;
 
             var userResponse = await userService.CreateUser(model, Roles.AgencyStaff, token);
             if(userResponse.Response != ServiceResponses.Success)

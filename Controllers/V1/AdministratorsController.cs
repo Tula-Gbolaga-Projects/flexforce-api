@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Claims;
 
 namespace agency_portal_api.Controllers.V1
 {
@@ -16,16 +17,26 @@ namespace agency_portal_api.Controllers.V1
     {
         private readonly IAgencyService agencyService;
         private readonly IJobSeekerService jobSeekerService;
+        private readonly IUserService userService;
 
-        public AdministratorsController(IAgencyService agencyService, IJobSeekerService jobSeekerService)
+        public AdministratorsController(IAgencyService agencyService, IJobSeekerService jobSeekerService, IUserService userService)
         {
             this.agencyService = agencyService;
             this.jobSeekerService = jobSeekerService;
+            this.userService = userService;
         }
 
+        [HttpPost("users/create")]
+        [Authorize(Roles = "Admin")]
+        [ProducesResponseType(typeof(GlobalResponse<GetUserDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ApplyToJob(CreateUserDto model, CancellationToken token)
+        {
+            return new ControllerResponse().ReturnResponse(await userService.CreateUser(model, null, token));
+        }
 
-        // GET api/Agency/ListAll
         [HttpGet("agencies/list-all")]
+        [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto[]>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> ListAllAgencies(CancellationToken token)
@@ -33,8 +44,8 @@ namespace agency_portal_api.Controllers.V1
             return Ok(ResponseBuilder.BuildResponse<object>(null, await agencyService.GetPaginatedResult(token)));
         }
 
-        // GET api/Agency/{agencyId}
         [HttpGet("agencies/{agencyId}")]
+        [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetAgencyById(string agencyId, CancellationToken token)
@@ -42,7 +53,6 @@ namespace agency_portal_api.Controllers.V1
             return new ControllerResponse().ReturnResponse(await agencyService.GetById(agencyId, token));
         }
 
-        // GET api/Agency/{agencyId}
         [HttpPost("agencies/{agencyId}/activate")]
         [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto>), StatusCodes.Status200OK)]
