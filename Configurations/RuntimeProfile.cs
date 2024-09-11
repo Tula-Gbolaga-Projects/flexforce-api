@@ -101,6 +101,20 @@ namespace agency_portal_api.Configurations
                 .MapFrom(src => src.Staff == null ? null : $"{src.Staff.FirstOrDefault().User.FirstName} {src.Staff.FirstOrDefault().User.LastName}"))
                 .ForMember(dest => dest.PrimaryStaffEmail, option => option
                 .MapFrom(src => src.Staff == null ? null : $"{src.Staff.FirstOrDefault().User.Email}"));
+
+            CreateMap<JobSeeker, AgencyConnectedSeekerDto>()
+                .ForMember(dest => dest.LastName, option => option
+                .MapFrom(src => src.User.LastName))
+                .ForMember(dest => dest.FirstName, option => option
+                .MapFrom(src => src.User.FirstName))
+                .ForMember(dest => dest.Email, option => option
+                .MapFrom(src => src.User.Email))
+                .ForMember(dest => dest.PhoneNumber, option => option
+                .MapFrom(src => src.User.PhoneNumber))
+                .ForMember(dest => dest.UserId, option => option
+                .MapFrom(src => src.UserId))
+                .ForMember(dest => dest.Status, option => option
+                .MapFrom<GetConnectedSeekerStatusResolver>());
             #endregion
         }
     }
@@ -123,6 +137,27 @@ namespace agency_portal_api.Configurations
             }
 
             return connectedAgency.ConnectedStatus.ToString();
+        }
+    }
+
+    public class GetConnectedSeekerStatusResolver : IValueResolver<JobSeeker, AgencyConnectedSeekerDto, string>
+    {
+        private readonly IHttpContextAccessor httpContextAccessor;
+
+        public GetConnectedSeekerStatusResolver(IHttpContextAccessor httpContextAccessor)
+        {
+            this.httpContextAccessor = httpContextAccessor;
+        }
+
+        public string Resolve(JobSeeker source, AgencyConnectedSeekerDto destination, string destMember, ResolutionContext context)
+        {
+            var connectedSeeker = source.ConnectedAgencies.Where(c => c.AgencyId == httpContextAccessor.HttpContext.User.FindFirstValue("AgencyId")).FirstOrDefault();
+            if(connectedSeeker == null )
+            {
+                return ConnectedAgencyStatusEnum.NotOnboarded.ToString();
+            }
+
+            return connectedSeeker.ConnectedStatus.ToString();
         }
     }
 }

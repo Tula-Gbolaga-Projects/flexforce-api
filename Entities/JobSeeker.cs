@@ -16,5 +16,6 @@ namespace agency_portal_api.Entities
         public string Brp { get; set; }
         public string NationalInsurance { get; set; }
         public string ShareCode { get; set; }
+        public List<ConnectedAgency> ConnectedAgencies { get; set; }
     }
 }

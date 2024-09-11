@@ -63,7 +63,7 @@ namespace agency_portal_api.Controllers.V1
         }
 
         // GET api/JobSeeker/ListAll
-        [HttpGet("job-seeker/list-all")]
+        [HttpGet("job-seekers/list-all")]
         [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetJobSeekerDto[]>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
@@ -73,7 +73,7 @@ namespace agency_portal_api.Controllers.V1
         }
 
         // GET api/JobSeeker/{jobSeekerId}
-        [HttpGet("job-seeker/{jobSeekerId}")]
+        [HttpGet("job-seekers/{jobSeekerId}")]
         [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetJobSeekerDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]

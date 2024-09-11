@@ -21,12 +21,14 @@ namespace agency_portal_api.Controllers.V1
         private readonly IAgencyService agencyService;
         private readonly IJobDetailService jobDetailService;
         private readonly IAppliedJobService appliedJobService;
+        private readonly IConnectedAgencyService connectedAgencyService;
 
-        public AgenciesController(IAgencyService agencyService, IJobDetailService jobDetailService, IAppliedJobService appliedJobService)
+        public AgenciesController(IAgencyService agencyService, IJobDetailService jobDetailService, IAppliedJobService appliedJobService, IConnectedAgencyService connectedAgencyService)
         {
             this.agencyService = agencyService;
             this.jobDetailService = jobDetailService;
             this.appliedJobService = appliedJobService;
+            this.connectedAgencyService = connectedAgencyService;
         }
 
         // POST api/Agency
@@ -85,6 +87,30 @@ namespace agency_portal_api.Controllers.V1
         public async Task<IActionResult> RejectJob(string jobApplicationId, CancellationToken token)
         {
             return Ok(ResponseBuilder.BuildResponse<object>(null, await appliedJobService.UpdateApplication(jobApplicationId, AppliedJobStatusEnum.Rejected, token)));
+        }
+
+        [HttpGet("job-seekers/list-all")]
+        [ProducesResponseType(typeof(GlobalResponse<AgencyConnectedSeekerDto[]>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> AgenciesList(CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await connectedAgencyService.ListAllAgenciesSeeker(HttpContext.User.FindFirstValue("AgencyId"), token)));
+        }
+
+        [HttpPost("job-seekers/{jobSeekerId}/invite")]
+        [ProducesResponseType(typeof(GlobalResponse<string>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> InviteSeeker(string jobSeekerId, CancellationToken token)
+        {
+            return new ControllerResponse().ReturnResponse(await connectedAgencyService.InviteSeeker(HttpContext.User.FindFirstValue("AgencyId"), jobSeekerId, token));
+        }
+
+        [HttpPatch("job-seekers/{jobSeekerId}/accept-connection")]
+        [ProducesResponseType(typeof(GlobalResponse<string>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> AcceptConnection(string jobSeekerId, CancellationToken token)
+        {
+            return new ControllerResponse().ReturnResponse(await connectedAgencyService.UpdateConnectedSeeker(jobSeekerId, HttpContext.User.FindFirstValue("AgencyId"), ConnectedAgencyStatusEnum.Onboarded, token));
         }
     }
 }

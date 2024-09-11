@@ -90,5 +90,13 @@ namespace agency_portal_api.Controllers.V1
         {
             return new ControllerResponse().ReturnResponse(await agencyService.GetById(agencyId, token));
         }
+
+        [HttpPatch("agencies/{agencyId}/connect")]
+        [ProducesResponseType(typeof(GlobalResponse<string>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ConnectToAgency(string agencyId, CancellationToken token)
+        {
+            return new ControllerResponse().ReturnResponse(await connectedAgencyService.ConnectToAgency(agencyId, HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier), token));
+        }
     }
 }

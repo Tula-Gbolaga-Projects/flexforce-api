@@ -16,6 +16,7 @@ namespace agency_portal_api.Services
         Task<CustomResponse<GetJobSeekerDto>> GetById(string jobSeekerId, CancellationToken token);
         Task<List<GetJobSeekerDto>> GetPaginatedResult(CancellationToken token);
         Task<CustomResponse<GetJobSeekerDto>> Profile(string jobSeekerId, CancellationToken token);
+        IQueryable<JobSeeker> ListAll();
     }
 
     public class JobSeekerService : IJobSeekerService
