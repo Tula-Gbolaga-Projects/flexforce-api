@@ -88,6 +88,13 @@ namespace agency_portal_api.Services
                 new Claim(ClaimTypes.Role, user.RoleName)
             };
 
+            if(user.RoleName == Roles.AgencyStaff)
+            {
+                var agencyStaff = await repository.ListAll<AgencyStaff>().FirstOrDefaultAsync(c => c.UserId ==  user.Id);
+                if (agencyStaff != null)
+                    claims.Add(new Claim("AgencyId", agencyStaff.AgencyId));
+            }
+
             var token = CreateToken(claims);
 
             var createdToken = tokenHandler.CreateToken(token);
@@ -114,36 +121,6 @@ namespace agency_portal_api.Services
             };
         }
 
-        private async Task<AuthResponse> GenerateHQToken(User user)
-        {
-            var tokenHandler = new JwtSecurityTokenHandler();
-
-            var claims = new List<Claim>()
-            {
-                new Claim(ClaimTypes.NameIdentifier, user.Id),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
-                new Claim(ClaimTypes.Role, user.RoleName)
-            };
-
-            var token = CreateToken(claims);
-
-            var createdToken = tokenHandler.CreateToken(token);
-
-            var refreshToken = GenerateRefreshToken();
-
-            _ = int.TryParse(_jwt.RefreshTokenValidityInDays, out int refreshTokenValidityInDays);
-            user.RefreshTokenKey = refreshToken;
-            user.RefreshTokenExpirytime = DateTime.UtcNow.AddDays(refreshTokenValidityInDays);
-
-            return new AuthResponse()
-            {
-                ExpiresAt = createdToken.ValidTo,
-                UserId = user.Id,
-                Token = tokenHandler.WriteToken(createdToken),
-                RefreshToken = refreshToken
-            };
-        }
 
         private SecurityTokenDescriptor CreateToken(List<Claim> authClaims)
         {

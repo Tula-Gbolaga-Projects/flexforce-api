@@ -11,8 +11,9 @@ namespace agency_portal_api.Services
 {
     public interface IJobDetailService
     {
-        Task<CustomResponse<GetJobDetailDto>> Create(CreateJobDetailDto jobDetail, CancellationToken token);
+        Task<CustomResponse<GetJobDetailDto>> Create(CreateJobDetailDto jobDetail, string agencyId, CancellationToken token);
         Task<CustomResponse<GetJobDetailDto>> GetById(string jobDetailId, CancellationToken token);
+        Task<List<GetJobDetailDto>> GetAll(string agencyId, CancellationToken token);
         Task<List<GetJobDetailDto>> GetPaginatedResult(CancellationToken token);
     }
 
@@ -27,7 +28,7 @@ namespace agency_portal_api.Services
             this.mapper = mapper;
         }
 
-        public async Task<CustomResponse<GetJobDetailDto>> Create(CreateJobDetailDto model, CancellationToken token)
+        public async Task<CustomResponse<GetJobDetailDto>> Create(CreateJobDetailDto model, string agencyid, CancellationToken token)
         {
             if (model == null)
             {
@@ -35,6 +36,7 @@ namespace agency_portal_api.Services
             }
 
             var jobDetail = mapper.Map<JobDetail>(model);
+            jobDetail.AgencyId = agencyid;
 
             var result = await repository.AddAsync(jobDetail, token);
             if (result)
@@ -69,7 +71,16 @@ namespace agency_portal_api.Services
 
         public async Task<List<GetJobDetailDto>> GetPaginatedResult(CancellationToken token)
         {
-            var query = await ListAll().ToListAsync(token);
+            var query = await ListAll().Where(c => c.Publicity == JobPublicityEnum.Public).ToListAsync(token);
+
+            var paginatedResult = mapper.Map<List<GetJobDetailDto>>(query);
+
+            return paginatedResult;
+        }
+
+        public async Task<List<GetJobDetailDto>> GetAll(string agencyId, CancellationToken token)
+        {
+            var query = await ListAll().Where(c => c.AgencyId == agencyId).ToListAsync(token);
 
             var paginatedResult = mapper.Map<List<GetJobDetailDto>>(query);
 
