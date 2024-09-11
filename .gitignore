@@ -406,8 +406,6 @@ ASALocalRun/
 
 #reports generated
 Reports/
-appsettings.json
-appsettings.json
 /cd ..
 
 logs/
