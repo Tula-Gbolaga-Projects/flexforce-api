@@ -23,12 +23,31 @@ namespace agency_portal_api.Controllers.V1
             this.jobSeekerService = jobSeekerService;
         }
 
+
+        // GET api/Agency/ListAll
+        [HttpGet("agencies/list-all")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto[]>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ListAllAgencies(CancellationToken token)
+        {
+            return Ok(ResponseBuilder.BuildResponse<object>(null, await agencyService.GetPaginatedResult(token)));
+        }
+
         // GET api/Agency/{agencyId}
-        [HttpGet("activate-agency/{agencyId}")]
+        [HttpGet("agencies/{agencyId}")]
+        [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAgencyById(string agencyId, CancellationToken token)
+        {
+            return new ControllerResponse().ReturnResponse(await agencyService.GetById(agencyId, token));
+        }
+
+        // GET api/Agency/{agencyId}
+        [HttpPost("agencies/{agencyId}/activate")]
         [Authorize(Roles = "Admin")]
         [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetAgencyById([Required]string agencyId, CancellationToken token)
+        public async Task<IActionResult> ActivateAgency([Required]string agencyId, CancellationToken token)
         {
             return new ControllerResponse().ReturnResponse(await agencyService.ActivateAgency(agencyId, token));
         }

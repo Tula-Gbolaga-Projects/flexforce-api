@@ -34,22 +34,5 @@ namespace agency_portal_api.Controllers.V1
             return new ControllerResponse().ReturnResponse(await agencyService.Create(model, token));
         }
 
-        // GET api/Agency/ListAll
-        [HttpGet("list-all")]
-        [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto[]>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> ListAllAgencies(CancellationToken token)
-        {
-            return Ok(ResponseBuilder.BuildResponse<object>(null, await agencyService.GetPaginatedResult(token)));
-        }
-
-        // GET api/Agency/{agencyId}
-        [HttpGet("{agencyId}")]
-        [ProducesResponseType(typeof(GlobalResponse<GetAgencyDto>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(GlobalResponse<object>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetAgencyById(string agencyId, CancellationToken token)
-        {
-            return new ControllerResponse().ReturnResponse(await agencyService.GetById(agencyId, token));
-        }
     }
 }
